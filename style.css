@@ -7,6 +7,9 @@
 .app{
     width: 100vw;
     height: 100vh;
+    background: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav-bar{
     max-width: 1440px;
@@ -46,5 +49,10 @@
 .nav-link-text>img{
     width: 105px;
     height: 28px;
+}
+
+img.app{
+    width: 135px;
+    height: 40px;
 }
 
