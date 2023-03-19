@@ -12,7 +12,7 @@
     background-size: cover;
 }
 .nav-bar{
-    max-width: 1440px;
+    max-width: 1550px;
     height: 72px;
     display: flex;
     align-items: center;
@@ -56,3 +56,46 @@ img.app{
     height: 40px;
 }
 
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto auto;
+    padding: 0 20px;
+    max-width: 1550px;
+    
+}
+
+.hero-content{
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero-button{
+    width: 154px;
+    height: 48px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.hero-title{
+    font-family: 'Inter' , sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: #18191F;
+    margin-top: 70px;
+}
+
+.hero-image-container>img{
+    width: 350px;
+}
