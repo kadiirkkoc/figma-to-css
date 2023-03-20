@@ -6,7 +6,7 @@
 
 .app{
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background: url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,11 +58,17 @@ img.app{
 
 .hero-section{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     margin: 100px auto auto;
     padding: 0 20px;
     max-width: 1550px;
     
+}
+
+.hero-content-wrapper{
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero-content{
@@ -98,4 +104,17 @@ img.app{
 
 .hero-image-container>img{
     width: 350px;
+}
+
+.hero-company-logos{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    margin: auto;
+}
+
+.hero-company-logos>img{
+    width: 200px;
+    height: 50px;
 }
