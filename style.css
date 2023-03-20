@@ -6,13 +6,13 @@
 
 .app{
     width: 100vw;
-    height: 110vh;
-    background: url(./images/background.jpg);
+    height: 100vh;
+    background: url(./images/background.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover; 
 }
 .nav-bar{
-    max-width: 1550px;
+    max-width: 1440px;
     height: 72px;
     display: flex;
     align-items: center;
@@ -62,13 +62,15 @@ img.app{
     justify-content: space-around;
     margin: 100px auto auto;
     padding: 0 20px;
-    max-width: 1550px;
+    max-width: 1440px;
+    max-height: 1000px;
     
 }
 
 .hero-content-wrapper{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .hero-content{
@@ -77,7 +79,10 @@ img.app{
     flex-direction: column;
     gap: 32px;
 }
-
+.hero-image-container{
+    width: 350px;
+    height: 750px;
+}
 .hero-button{
     width: 154px;
     height: 48px;
@@ -103,7 +108,7 @@ img.app{
 }
 
 .hero-image-container>img{
-    width: 350px;
+    width: 450px;
 }
 
 .hero-company-logos{
@@ -111,13 +116,11 @@ img.app{
     display: flex;
     align-items: center;
     gap: 65px;
-    margin: auto;
+    margin-top: 100px;
+    margin:auto;
 }
 
-.hero-company-logos>img{
-    width: 200px;
-    height: 50px;
-}
+
 
 .feature-section{
     display: flex;
